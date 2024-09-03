@@ -31,4 +31,3 @@ export default async function handler(req, res) {
 }
 
 
-\curl -F "url=https://yaksbot.vercel.app/api/bot" https://api.telegram.org/bot7359359493:AAFW9MRemzaE3sYg8Oj-Ab4K6ClubtX6V3c/setWebhook
