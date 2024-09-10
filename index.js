@@ -1,6 +1,5 @@
-// import TelegramBot from 'node-telegram-bot-api';
+import TelegramBot from 'node-telegram-bot-api';
 
-const TelegramBot = require('node-telegram-bot-api')
 
 // Replace with your bot token
 const token = '7359359493:AAFW9MRemzaE3sYg8Oj-Ab4K6ClubtX6V3c';
@@ -34,4 +33,4 @@ bot.onText(/\/start/, (msg) => {
 // bot.on('message', (msg) => {
 //   const chatId = msg.chat.id;
 //   bot.sendMessage(chatId, `You said: ${msg.text}`);
-// });
+// }); 
